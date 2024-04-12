@@ -1,0 +1,68 @@
+.body{
+    display:flex;
+    flex-direction:column;
+}
+.introduction {
+    width:100%;
+    height:auto;
+    background-color: hsl(
+    37,9%,95%);
+  }
+h1{
+    font-family: "Noto Sans", sans-serif;
+    padding-left:10px;
+}
+.about{
+    background-color: hsl(180, 100%, 94%);
+}
+h3{
+    font-family: "Noto Sans", sans-serif;
+    padding-left:10px;
+}
+p{
+    font-family: "Noto Sans", sans-serif;
+    padding-left:10px;
+    line-height: 1.5;
+}
+ul{
+    font-family: "Noto Sans", sans-serif;
+    padding-left:25px;
+    line-height: 1.5;
+
+}
+.skills {
+    height:auto;
+    width:100%;
+    background-color: blanchedalmond;
+
+}
+.contacts{
+    height:auto;
+    width:100%;
+    background-color: azure;
+}
+h4{
+    font-family: "Noto Sans", sans-serif;
+    padding-left:10px;
+}
+.contacts_form, label{
+    font-family: "Noto Sans", sans-serif;
+    padding-left:10px;
+}
+.contacts_form, input{
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact_form{
+    max-width:100%;
+    height:auto;
+  }
+  .contacts_form, textarea{
+    max-width: 100%;
+  }
+}

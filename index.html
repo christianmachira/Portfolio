@@ -3,31 +3,50 @@
     <head>
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <title>Christian Machira Portfolio</title>
     </head>
     <body>
-        <nav>
-            <a href = "#home">Home</a>
+        <!-- <nav>
+            <a href = "#introduction">Introduction</a>
             <a href = "#about">About</a>
-            <a href = "#projects">Projects</a>
-        </nav>
-        <section id = "home">
+            <a href = "#skills">Skills</a>
+        </nav> -->
+        <section class = "introduction">
             <h1>Christian Machira</h1>
-            <h2>I am a Full Stack Developer</h3>
+            <h1>Hello, I am a Full Stack Developer👋🏾</h1>
         </section>
-        <section id = "about">
-            <h3>About</h3>
+        <section class = "about">
+            <h3>About 😀</h3>
             <p>I was born in Kenya and I am a full stack developer</p>
             <p>i work using the MERN stack and proficient in web design</p>
         </section>
-        <section id = "projects">
-            <h3>Projects</h3>
-            <p>Here are some of the projects i have worked on</p>
+        <section class = "skills">
+            <h3>Skills 👨🏾‍💻</h3>
+            <p>Here are some of the skills I have in web developement</p>
             <ul>
-                <li>Project 1: Age Calculator App</li>
-                <li>Project 2:  Weather Forecast App</li>
-                <li>Project 3:  E-commerce Website</li>
+                <li>HTML, CSS & JavaScript</li>
+                <li>React, React Native</li>
+                <li>NodeJS, ExpressJS, MongoDB</li>
             </ul>
+        </section>
+        <section class="contacts">
+            <form id="contact_form">
+                <h4>Get in Touch With Me ☎️</h4>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="telephone">Telephone</label>
+                <input type="tel" id="telephone" name="telephone" required><br>
+                <textarea rows="4" cols="50" name="comment" form="contact_form">
+                    Enter text here...</textarea><br>
+                <input type="submit">
+                <input type="reset">
+            </form>
         </section>
     </body>
 </html>
